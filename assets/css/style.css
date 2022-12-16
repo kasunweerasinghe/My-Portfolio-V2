@@ -278,3 +278,14 @@ svg {
 .hero_headline > br {
     display: none;
 }
+
+h1 > span {
+    background-image: linear-gradient(to right, var(--accent) 75%, var(--accent) 75%);
+    background-position: 0 1.18em;
+    background-repeat: repeat-x;
+    background-size: 8px 4px;
+}
+
+.hero_description {
+    margin-block-end: 24px;
+}
