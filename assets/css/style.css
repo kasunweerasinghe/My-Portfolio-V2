@@ -152,7 +152,7 @@ svg {
     margin-inline: auto;
 }
 
-/* 600px */
+/* 600px Tablet*/
 @media (min-width: 37.5em) {
     .wrapper {
         width: calc(100% - 3.75rem);
