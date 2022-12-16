@@ -5,3 +5,24 @@ created by kasunrachintha on 12/16/22
 @Time: 1:40 pm
 @Project : My-Portfolio-V2 
 */
+
+/* GLOBAL RULES*/
+:root {
+    --bg-body: hsl(0, 0%, 8%);
+    --bg-body2: hsl(0, 0%, 14%);
+    --accent: hsl(153, 71%, 59%);
+    --text1: hsl(0, 0%, 100%);
+    --text2: hsl(0, 0%, 85%);
+    --invalid: hsl(7, 100%, 68%);
+    --fs-18: 1.125rem;
+    --fs-88: 5.5rem;
+    --fs-72: 4.5rem;
+    --fs-40: 2.5rem;
+    --fs-48: 3rem;
+    --fs-36: 2.25rem;
+    --fs-32: 2rem;
+    --fs-24: 1.5rem;
+    --fs-20: 1.25rem;
+    --container: 69.375rem;
+    --transition: 250ms ease-in-out;
+}
