@@ -272,3 +272,9 @@ svg {
 .hero_headline {
     margin-block-end: 24px;
 }
+
+
+/*here line break from "Nice to meet you!" and this showing mobile version*/
+.hero_headline > br {
+    display: none;
+}
