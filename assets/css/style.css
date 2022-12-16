@@ -456,3 +456,37 @@ h1 > span {
     left: 50%;
     translate: 0 50%;
 }
+
+
+/*Skills Section Tablet Query*/
+@media (min-width: 37.5em) {
+    .skills_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 52px 24px;
+        border: none;
+        padding-block: 52px 0;
+    }
+
+    .skills_item {
+        text-align: left;
+    }
+
+    .skills_rings {
+        translate: 40% 50%;
+    }
+}
+
+
+/*Skills Section Desktop Query*/
+@media (min-width: 62.5em) {
+    .skills_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 58px 30px;
+        padding-block-start: 72px;
+    }
+
+    .skills_rings {
+        translate: -40% 50%;
+        left: 100%;
+    }
+}
