@@ -458,6 +458,7 @@ h1 > span {
 }
 
 
+
 /*Skills Section Tablet Query*/
 @media (min-width: 37.5em) {
     .skills_wrapper {
@@ -474,7 +475,10 @@ h1 > span {
     .skills_rings {
         translate: 40% 50%;
     }
+
 }
+
+
 
 
 /*Skills Section Desktop Query*/
@@ -490,3 +494,7 @@ h1 > span {
         left: 100%;
     }
 }
+
+
+/*--------------------------------------------------------------*/
+/*PROJECT SECTION*/
