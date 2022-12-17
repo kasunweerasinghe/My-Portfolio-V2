@@ -558,3 +558,46 @@ h1 > span {
     align-items: center;
     gap: 20px;
 }
+
+/*Projects Section Tablet Query*/
+@media (min-width: 37.5em) {
+    .projects_grid {
+        gap: 60px 24px;
+        justify-items: start;
+        text-align: left;
+    }
+
+    .projects_contact {
+        justify-self: end;
+    }
+
+    .projects_item {
+        grid-column: span 1;
+    }
+
+    .projects_headline,
+    .projects_contact {
+        grid-column: span 1;
+    }
+
+    .projects_contact {
+        align-self: center;
+    }
+
+    .projects_tags,
+    .projects_links {
+        display: block;
+    }
+
+    .projects_tags span {
+        margin-inline-end: 18px;
+    }
+
+    .projects_links a {
+        margin-inline-end: 30px;
+    }
+
+    .project_links {
+        display: block;
+    }
+}
