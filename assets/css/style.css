@@ -496,3 +496,65 @@ h1 > span {
 
 /*--------------------------------------------------------------*/
 /*PROJECT SECTION*/
+.projects {
+
+}
+
+.projects_wrapper {
+    padding-block: 140px;
+}
+
+.projects_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-items: center;
+    text-align: center;
+}
+
+.projects_headline {
+    grid-column: 1 /  2;
+    margin-block-end: 0;
+}
+
+.projects_contact {
+    grid-column: 1 /  2;
+}
+
+.projects_item {
+    grid-column: 1 / span 2;
+}
+
+.projects_picture {
+    display: block;
+    margin-block-end: 20px;
+}
+
+.projects_image {
+    width: 100%;
+    height: auto;
+}
+
+.projects_name {
+    font-size: 1.5rem;
+    line-height: 1.3;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-block-end: 7px;
+}
+
+.projects_tags {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-block-end: 20px;
+    text-transform: uppercase;
+}
+
+
+.projects_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
