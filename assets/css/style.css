@@ -763,3 +763,21 @@ h1 > span {
         translate: -75%;
     }
 }
+
+
+/*Contact Section Desktop Query*/
+@media (min-width: 62.5em) {
+    .contact_wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 27.8rem);
+        justify-content: space-between;
+    }
+
+    .contact_headline {
+        margin-block-end: var(--fs-36);
+    }
+
+    .contact_rings {
+        translate: -40%;
+    }
+}
