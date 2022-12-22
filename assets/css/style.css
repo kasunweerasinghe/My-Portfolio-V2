@@ -781,3 +781,15 @@ h1 > span {
         translate: -40%;
     }
 }
+
+
+/* 999.98px */
+@media (max-width: 62.49875em) {
+    .contact_wrapper {
+        max-width: 27.8rem;
+    }
+
+    .contact_text {
+        text-align: center;
+    }
+}
