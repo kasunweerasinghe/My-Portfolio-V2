@@ -801,9 +801,17 @@ footer {
     padding-block: 40px 60px;
 }
 
-/*Footer Section Desktop Query*/
+/*Footer Section Tablet Query*/
 @media (min-width: 37.5em) {
     footer {
         padding-block: 30px 40px;
+    }
+}
+
+
+/*Footer Section Desktop Query*/
+@media (min-width: 62.5em) {
+    footer {
+        padding-block: 47px 92px;
     }
 }
