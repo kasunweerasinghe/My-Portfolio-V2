@@ -671,3 +671,36 @@ h1 > span {
         margin-block-end: 0;
     }
 }
+
+
+/*--------------------------------------------------------------*/
+/*CONTACT SECTION*/
+
+.contact {
+    position: relative;
+}
+
+.contact_wrapper {
+    padding-block: 84px;
+}
+
+.contact_headline {
+    margin-block-end: var(--fs-20);
+}
+
+.contact_control {
+    position: relative;
+    margin-block-end: 16px;
+}
+
+.contact_control input, .contact_control textarea {
+    width: 100%;
+    padding-block: 16px;
+    padding-inline: 24px;
+    border: none;
+    border-bottom: 1px solid var(--text1);
+    background: transparent;
+    font-size: 1rem;
+    line-height: 1.625;
+    color: var(--text1);
+}
