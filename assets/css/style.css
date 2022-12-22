@@ -754,3 +754,12 @@ h1 > span {
     bottom: 97px;
     translate: -75%;
 }
+
+
+/*Contact Section Tablet Query*/
+@media (min-width: 37.5em) {
+    .contact_rings {
+        bottom: 47px;
+        translate: -75%;
+    }
+}
