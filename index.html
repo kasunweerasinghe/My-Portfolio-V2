@@ -264,6 +264,40 @@ created by kasunrachintha on 12/16/22
 
     <!--Contact Section-->
     <section  class="contact bg-less-dark" id="contact">
+        <div class="wrapper contact_wrapper bottom-border">
+            <div class="contact_text">
+                <h2 class="contact_headline header-xl">Contact</h2>
+                <p class="contact_description">
+                    I would love to hear about your project and how I could help.
+                    Please fill in the form, and I'll get back to you as soon as
+                    possible.
+                </p>
+            </div>
+            <form action="" class="contact_form">
+                <div class="contact_control">
+                    <label class="visually-hidden" for="name">Name</label>
+                    <input id="name" name="name" placeholder="Name" required type="text"/>
+                    <img alt="invalid image" class="contact_invalid-icon" height="24" src="assets/img/icon-invalid.svg"
+                         width="24">
+                </div>
+                <div class="contact_control">
+                    <label class="visually-hidden" for="email">Email</label>
+                    <input id="email" name="email" placeholder="Email" required type="email"/>
+                    <img alt="invalid image" class="contact_invalid-icon" height="24" src="assets/img/icon-invalid.svg"
+                         width="24">
+                </div>
+                <div class="contact_control">
+                    <label class="visually-hidden" for="message">Message</label>
+                    <textarea cols="30" id="message" name="message" placeholder="Message" required rows="3"></textarea>
+                    <img alt="invalid image" class="contact_invalid-icon" height="24" src="assets/img/icon-invalid.svg"
+                         width="24">
+                </div>
+                <div class="contact_control align-right">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+        <img alt="" class="contact_rings" height="129" src="assets/img/pattern-rings.svg" width="530"/>
     </section>
 
 </main>
