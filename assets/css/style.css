@@ -435,10 +435,6 @@ h1 > span {
     padding-block: 40px;
 }
 
-.skills_headline{
-    margin: 0 16px;
-    padding-top: 50px;
-}
 
 .skills_item {
     text-align: center;
@@ -473,9 +469,11 @@ h1 > span {
         padding-block: 52px 0;
     }
 
-    .skills_headline{
-        margin: 0 30px;
+    .skill_headline {
+        margin-block-end: 0;
+        grid-column: span 2;
     }
+
 
     .skills_item {
         text-align: left;
@@ -484,8 +482,6 @@ h1 > span {
     .skills_rings {
         translate: 40% 50%;
     }
-
-
 
 }
 
@@ -496,6 +492,11 @@ h1 > span {
         grid-template-columns: repeat(3, 1fr);
         gap: 58px 30px;
         padding-block-start: 72px;
+    }
+
+    .skill_headline {
+        margin-block-end: 0;
+        grid-column: span 3;
     }
 
     .skills_rings {
