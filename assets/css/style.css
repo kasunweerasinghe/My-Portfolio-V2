@@ -704,3 +704,53 @@ h1 > span {
     line-height: 1.625;
     color: var(--text1);
 }
+
+.contact_control > *::placeholder {
+    color: var(--text1);
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.contact_control textarea {
+    margin-block-end: 32px;
+}
+
+.contact_control.align-right {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.contact_control button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.contact_invalid-icon {
+    display: none;
+    width: var(--fs-24);
+    height: var(--fs-24);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    translate: -50% -50%;
+}
+
+.contact input:focus-visible:invalid ~ .contact_invalid-icon,
+.contact textarea:focus-visible:invalid ~ .contact_invalid-icon {
+    display: inline-block;
+}
+
+.contact textarea:focus-visible:invalid ~ .contact_invalid-icon {
+    top: 1.2rem;
+    right: 1.5rem;
+    translate: none;
+}
+
+.contact_rings {
+    position: absolute;
+    left: 0;
+    bottom: 97px;
+    translate: -75%;
+}
