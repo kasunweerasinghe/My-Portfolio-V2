@@ -42,7 +42,16 @@
 # Portfolio View.
 
 profile
-![profile!]()
+![About!](assets/img/portfolio-ss/About.png)
+
+Skills
+![Skills!](assets/img/portfolio-ss/Skills.png)
+
+Projects
+![Projects!](assets/img/portfolio-ss/Project.png)
+
+Contact
+![Contact!](assets/img/portfolio-ss/Contact.png)
 
 
 ---
