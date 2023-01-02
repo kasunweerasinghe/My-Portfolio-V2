@@ -8,7 +8,7 @@
 #### This website shows some information about my career.I categorize them into sections.
 * About Me.
 * Top Skills.
-* Projects I have done.
+* Projects.
 * Contact Details.
 
 #### This website is Optimized to Provide for All Mobile & Desktop Devices you Can View.
