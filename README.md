@@ -23,7 +23,7 @@
 
 ️️🖼️ Mock Up: https://www.figma.com/file/jQnC6N1hGYFQSkn4XJuu7i/Untitled?node-id=0%3A1&t=HsFVd0RoNnzYPPiZ-1
 
-🌐 Infinity Free: https://kasunweerasinghe.000webhostapp.com/
+🌐 00WebHost: https://kasunweerasinghe.000webhostapp.com/
 
 📃 GitHub Page URL: https://kasunweerasinghe.github.io/My-Portfolio-V2/
 
