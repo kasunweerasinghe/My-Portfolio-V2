@@ -41,16 +41,22 @@
 
 # Portfolio View.
 
-profile
+### profile
 ![About!](assets/img/portfolio-ss/About.png)
 
-Skills
+### Skills
 ![Skills!](assets/img/portfolio-ss/Skills.png)
 
-Projects
-![Projects!](assets/img/portfolio-ss/Project.png)
+### Projects
+![Projects!](assets/img/portfolio-ss/Project1.png)
+![Projects!](assets/img/portfolio-ss/Project2.png)
+![Projects!](assets/img/portfolio-ss/Project3.png)
+![Projects!](assets/img/portfolio-ss/Project4.png)
 
-Contact
+### Projects with Hover Effect
+![Projects!](assets/img/portfolio-ss/ProjectAfterHover.png)
+
+### Contact
 ![Contact!](assets/img/portfolio-ss/Contact.png)
 
 
