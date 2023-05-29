@@ -36,7 +36,6 @@
 * HTML
 * CSS
 * Intellij IDEA
-
 ---
 
 # Portfolio View.
